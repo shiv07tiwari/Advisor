@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate a Random Advice for yourself !"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        style="bold"
+        android:layout_gravity="center" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shake your device to generate an advice !"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_gravity="center" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/advice"
+        android:text=""
+        style="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
